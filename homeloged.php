@@ -273,13 +273,16 @@ $email = $_SESSION['usuario_email'];
     .dropdown {
         position: relative;
     }
-
     .btn-menu {
         background: none;
         border: none;
         cursor: pointer;
         padding: 5px;
-        
+        transition: 0.3s;        
+    }
+    .btn-menu:hover {
+        background: #f0f0f0ff;
+        border-radius: 10px;
     }
     .dropdown .btn-menu {
         align-items: center;
